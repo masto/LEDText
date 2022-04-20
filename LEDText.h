@@ -1,6 +1,9 @@
 #ifndef LEDText_h
 #define LEDText_h
 
+#include <stdint.h>
+class cLEDMatrixBase;
+
 #define  FONT_PROPORTIONAL  0x80
 
 #define  BACKGND_ERASE   0x0000
